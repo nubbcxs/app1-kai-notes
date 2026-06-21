@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>开云 · 简明的用途说明</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #f5f3ef;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+      color: #1e1c1a;
+      line-height: 1.7;
+    }
+    .hero {
+      background: #1b1a18;
+      color: #e3ddd2;
+      padding: 3.5rem 2rem 2.8rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.4rem;
+      font-weight: 300;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.4rem;
+      color: #f0ebe0;
+    }
+    .hero .sub {
+      font-size: 1.1rem;
+      font-weight: 300;
+      opacity: 0.75;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3.5rem;
+      background: #fffcf8;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+      border-radius: 0 0 12px 12px;
+    }
+    .intro {
+      font-size: 1.05rem;
+      margin-bottom: 1.8rem;
+      color: #3a3732;
+      background: #f2ede5;
+      padding: 1rem 1.4rem;
+      border-left: 4px solid #a8825a;
+      border-radius: 0 8px 8px 0;
+    }
+    .intro strong {
+      color: #6b4f33;
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 400;
+      margin: 2rem 0 0.8rem;
+      color: #2b2824;
+      border-bottom: 1px solid #ddd6cb;
+      padding-bottom: 0.3rem;
+    }
+    p {
+      margin-bottom: 1.1rem;
+      text-align: justify;
+    }
+    a {
+      color: #8b6a47;
+      text-decoration: none;
+      border-bottom: 1px solid #d9caba;
+      transition: color 0.2s;
+    }
+    a:hover {
+      color: #4d3522;
+      border-bottom-color: #a8825a;
+    }
+    blockquote {
+      background: #f1ebe2;
+      padding: 0.8rem 1.2rem;
+      margin: 1.6rem 0;
+      border-radius: 6px;
+      font-style: normal;
+      color: #4d453b;
+      border-left: 3px solid #b39270;
+    }
+    blockquote p {
+      margin-bottom: 0.3rem;
+    }
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin: 1.2rem 0;
+    }
+    .feature-item {
+      flex: 1 1 150px;
+      background: #f9f6f0;
+      padding: 0.8rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      border: 1px solid #e8dfd3;
+    }
+    .feature-item .label {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: #85796a;
+      margin-bottom: 0.2rem;
+    }
+    .faq-summary {
+      margin: 1.8rem 0 0.2rem;
+    }
+    .faq-summary details {
+      margin-bottom: 0.6rem;
+      border-bottom: 1px solid #e8dfd3;
+      padding-bottom: 0.5rem;
+    }
+    .faq-summary summary {
+      cursor: pointer;
+      font-weight: 400;
+      color: #3a3732;
+      padding: 0.3rem 0;
+    }
+    .faq-summary summary:hover {
+      color: #6b4f33;
+    }
+    .faq-summary .answer {
+      color: #5b534a;
+      padding: 0.4rem 0 0.6rem;
+      font-size: 0.95rem;
+    }
+    .cta-line {
+      margin-top: 2rem;
+      padding: 1.2rem 0 0.2rem;
+      border-top: 1px solid #e2d8cb;
+      font-size: 1.05rem;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #7a6f60;
+      margin-top: 1.2rem;
+      border: 1px dashed #d9caba;
+      padding: 0.7rem 1rem;
+      border-radius: 6px;
+      background: #fcfaf6;
+    }
+    .footer-note {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #9d907f;
+      margin-top: 2rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid #eae1d5;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+      .container {
+        padding: 1.5rem 1rem 2.5rem;
+      }
+      .feature-grid {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <h1>开云</h1>
+  <span class="sub">一种用途的简洁说明</span>
+</header>
+
+<div class="container">
+
+  <div class="intro">
+    <strong>如果第一次看到「开云」</strong> —— 以下内容帮你快速理解这个网站用于做什么，以及它适合哪些场景。不绕弯，只陈述事实。
+  </div>
+
+  <p>
+    大多数时候，人们打开一个不熟悉的网站时，最迫切的问题是：<em>“这东西是做什么的？”</em> 对于 <a href="https://app1-kai-yun.com">开云</a>，它的定位并不复杂。它提供一个集中的操作界面，让用户能够快速处理某些特定类型的在线事务。如果你正在寻找一个工具来简化某个流程，不妨先看看它覆盖的功能范围。
+  </p>
+
+  <h2>它解决什么问题</h2>
+  <p>
+    从实际使用者的反馈来看，<a href="https://app1-kai-yun.com">开云</a> 主要围绕信息管理、轻量级配置和状态查看来组织功能。它不承诺代替所有工具，而是在一个较小的范围内把该做的事情做清楚。界面以列表和表单为主，操作路径较短，适合需要快速完成步骤而非长时间沉浸的场景。
+  </p>
+  <p>
+    举个例子：当你需要批量查看或更新一组条目，又不想在多个页面之间反复切换时，这类工具往往能节省时间。开云的设计思路正是朝着这个方向——减少冗余点击，把常用动作放在显眼位置。
+  </p>
+
+  <blockquote>
+    <p>“它的价值不在于功能数量，而在于把几件小事做到足够顺手。” —— 一位早期使用者的评价</p>
+  </blockquote>
+
+  <h2>适合什么样的人</h2>
+  <div class="feature-grid">
+    <div class="feature-item">
+      <span class="label">角色</span>
+      日常需要处理结构化数据的人
+    </div>
+    <div class="feature-item">
+      <span class="label">场景</span>
+      快速查询、状态更新、简易报表
+    </div>
+    <div class="feature-item">
+      <span class="label">特点</span>
+      界面克制，功能专注，没有冗余
+    </div>
+    <div class="feature-item">
+      <span class="label">偏好</span>
+      不喜欢过多引导或弹窗的用户
+    </div>
+  </div>
+
+  <p>
+    当然，不同人的工作流差异很大。如果你发现自己需要一个中间层工具来串联现有的流程，不妨花几分钟浏览一下 <a href="https://app1-kai-yun.com">开云</a> 的结构。也许它的布局正好符合你的习惯。
+  </p>
+
+  <h2>FAQ 摘要</h2>
+  <div class="faq-summary">
+    <details>
+      <summary>需要注册或下载额外软件吗？</summary>
+      <div class="answer">无需下载。所有操作都在浏览器内完成，登录后即可使用主要功能。数据保存于服务端，与账号绑定。</div>
+    </details>
+    <details>
+      <summary>支持移动设备吗？</summary>
+      <div class="answer">界面做了响应式适配，手机和窄屏设备可正常浏览和操作，但部分密集表格建议在宽屏下使用。</div>
+    </details>
+    <details>
+      <summary>是否有付费计划？</summary>
+      <div class="answer">当前提供免费使用层级，覆盖大部分日常需求。高级功能（如更长的历史记录或批量导出）未来可能会以订阅方式提供，具体以页面公示为准。</div>
+    </details>
+  </div>
+
+  <div class="cta-line">
+    如果你觉得上面的描述符合你的预期，可以直接前往 <a href="https://app1-kai-yun.com">开云</a> 看看实际界面。没有复杂引导，首页即核心功能。
+  </div>
+
+  <div class="note">
+    <strong>一则提示：</strong> 任何工具的使用效果都依赖于具体需求。建议先试用免费部分，确认流程匹配后再决定是否深入。不盲从，不夸大。
+  </div>
+
+  <div class="footer-note">
+    —— 本文仅为用途说明，不构成功能承诺。具体以网站实际表现为准。
+  </div>
+
+</div>
+
+</body>
+</html>
